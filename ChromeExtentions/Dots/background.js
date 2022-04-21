@@ -1,5 +1,5 @@
 console.log("background here");
-chrome.browserAction.onClicked.addListener(buttonClicked);
+chrome.action.onClicked.addListener(buttonClicked);
 
 function buttonClicked(tab){
     console.log(tab);
